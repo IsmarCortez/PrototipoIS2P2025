@@ -2645,11 +2645,11 @@ namespace Capa_Vista_Navegador
             string sExecutablePath = AppDomain.CurrentDomain.BaseDirectory;
 
             // Buscar la carpeta raíz "proyectois2k25" desde el ejecutable
-            string sProjectPath = sFindProjectRootDirectory(sExecutablePath, "proyectois2k25");
+            string sProjectPath = sFindProjectRootDirectory(sExecutablePath, "PrototipoIS2P2025");
 
             if (string.IsNullOrEmpty(sProjectPath))
             {
-                MessageBox.Show("❌ ERROR: No se encontró la carpeta 'proyectois2k25'", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("❌ ERROR: No se encontró la carpeta 'PrototipoIS2P2025'", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
